@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb-logo{
+    text-align: center;
+    margin-top: 50px;
+}
+.hc{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tx{
+    font-weight: bold;
+    font-size: medium;
+}
+.appeal-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1768d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
